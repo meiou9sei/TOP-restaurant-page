@@ -35,6 +35,6 @@ export default function Home() {
 
   const logoImage = new Image();
   logoImage.src = noodlesLogo;
-  home.appendChild(logoImage);
+  home.prepend(logoImage);
   return home;
 }

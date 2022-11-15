@@ -6,6 +6,10 @@ import Menu from "./pages/Menu";
 function content() {
   const content = document.querySelector("#content");
 
+  //nav
+  const pageSwitcher = PageSwitcher();
+  content.appendChild(pageSwitcher);
+
   //pages
   const homePage = Home();
   content.appendChild(homePage);
@@ -13,10 +17,6 @@ function content() {
   // content.appendChild(contactPage);
   // const menuPage = Menu();
   // content.appendChild(menuPage);
-
-  //nav
-  const pageSwitcher = PageSwitcher();
-  content.prepend(pageSwitcher);
 
   return content;
 }
