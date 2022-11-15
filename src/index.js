@@ -2,6 +2,7 @@ import PageSwitcher from "./PageSwitcher";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Menu from "./pages/Menu";
+import "./main.css";
 
 function content() {
   const content = document.querySelector("#content");
