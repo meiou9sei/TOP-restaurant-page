@@ -1,4 +1,4 @@
-Live demo available here: (to be listed later)
+Live demo available here: https://meiou9sei.github.io/TOP-restaurant-page/
 
 Learner's project following TOP
 
