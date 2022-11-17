@@ -6,12 +6,11 @@ const pages = ["home", "menu", "contact"];
 
 export default function PageSwitcher() {
   const pageSwitcher = document.createElement("nav");
-  pageSwitcher.classList.add("pageSwitcher");
+  pageSwitcher.classList.add("page-switcher");
 
   for (let i = 0; i < pages.length; i++) {
     const temp = buttonCreator(pages[i]);
     pageSwitcher.appendChild(temp);
-    console.log("forloop", i, "   ", temp);
   }
 
   return pageSwitcher;

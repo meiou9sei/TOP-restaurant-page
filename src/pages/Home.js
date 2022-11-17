@@ -1,5 +1,3 @@
-import noodlesLogo from "./../noodlesLogo.jpg";
-
 export default function Home() {
   const home = document.createElement("div");
   home.innerHTML = `
@@ -33,8 +31,5 @@ export default function Home() {
   `;
   home.classList.add("home");
 
-  const logoImage = new Image();
-  logoImage.src = noodlesLogo;
-  home.prepend(logoImage);
   return home;
 }
