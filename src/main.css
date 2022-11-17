@@ -38,21 +38,27 @@ section {
     /* max-width: 100%;
     max-height: 100%; */
     width: 90vw;
+    max-width: 960px;
     height: 20vw;
+    max-height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .page-switcher {
     width: 75%;
+    max-width: 800px;
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .page-switcher button {
+    background-color: white;
+    border-radius: 10px;
     flex: 1;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    height: 4vw;
 }
-
